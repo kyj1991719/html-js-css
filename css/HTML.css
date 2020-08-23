@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+#nav > div {
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+
+#nav > div > input[type='button'] {
+    display: none;
+}
+
+#nav > div > label {
+    display: inline-block;
+    background-color: hotpink;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 8px 16px;
+}
+
+#nav > div > label > div {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page1 {
+    height: 100rem;
+    background-color: blue;
+}
+
+#page2 {
+    height: 100rem;
+    background-color: bisque;
+}
+
+#page3 {
+    height: 100rem;
+    background-color: green;
+}
+
+#page4 {
+    height: 100rem;
+    background-color: gray;
+}
